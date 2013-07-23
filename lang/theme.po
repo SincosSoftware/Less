@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Standard 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-01 12:42-0500\n"
-"PO-Revision-Date: 2013-01-01 12:42-0500\n"
-"Last-Translator: Tom McFarlin <tom@tommcfarlin.com>\n"
+"POT-Creation-Date: 2013-07-23 15:50+0100\n"
+"PO-Revision-Date: 2013-07-23 15:52+0100\n"
+"Last-Translator: Torkil Johnsen <torkil@24nettbutikk.no>\n"
 "Language-Team: Jared Erickson <jared@lessmade.com>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
@@ -12,21 +12,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../functions.php:17
 msgid "Primary Menu"
-msgstr ""
+msgstr "Hovedmeny"
 
-#: ../index.php:75 ../index.php:132
+#: ../index.php:76 ../index.php:134
 msgid "Comment"
-msgstr ""
+msgstr "Kommenter"
 
-#: ../index.php:75 ../index.php:132
+#: ../index.php:76 ../index.php:134
 msgid "1 Comment"
-msgstr ""
+msgstr "1 kommentar"
 
-#: ../index.php:75 ../index.php:132
+#: ../index.php:76 ../index.php:134
 msgid "% Comments"
-msgstr ""
+msgstr "% kommentarer"
