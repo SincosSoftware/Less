@@ -17,16 +17,16 @@ msgstr ""
 
 #: ../functions.php:17
 msgid "Primary Menu"
-msgstr ""
+msgstr "Hovedmeny"
 
 #: ../index.php:76 ../index.php:134
 msgid "Comment"
-msgstr ""
+msgstr "Kommenter"
 
 #: ../index.php:76 ../index.php:134
 msgid "1 Comment"
-msgstr ""
+msgstr "1 kommentar"
 
 #: ../index.php:76 ../index.php:134
 msgid "% Comments"
-msgstr ""
+msgstr "% kommentarer"
