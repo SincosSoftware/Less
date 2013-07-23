@@ -73,7 +73,7 @@
 						<div class="post-meta">
 							<?php if( comments_open() ) : ?>
 								<span class="comments-link">
-									<?php comments_popup_link( __( 'Comment', 'break' ), __( '1 Comment', 'break' ), __( '% Comments', 'break' ) ); ?>
+									<?php comments_popup_link( __( 'Comment', 'less' ), __( '1 Comment', 'less' ), __( '% Comments', 'less' ) ); ?>
 								</span>
 							<?php endif; ?>
 						
