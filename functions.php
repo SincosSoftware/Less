@@ -1,10 +1,5 @@
 <?php
 
-add_action('after_setup_theme', 'my_theme_setup');
-function my_theme_setup(){
-    load_theme_textdomain('less', get_template_directory() . '/lang');
-}
-
 // Define the version as a constant so we can easily replace it throughout the theme
 define( 'LESS_VERSION', 1.1 );
 
@@ -40,3 +35,16 @@ function less_scripts()  {
 
 }
 add_action( 'wp_enqueue_scripts', 'less_scripts' );
+
+// translation
+add_action('after_setup_theme', 'my_theme_setup');
+function my_theme_setup(){
+    load_theme_textdomain('less', get_template_directory() . '/lang');
+}
+
+// Show top of article as default
+function remove_more_link_scroll( $link ) {
+	$link = preg_replace( '|#more-[0-9]+|', '', $link );
+	return $link;
+}
+add_filter( 'the_content_more_link', 'remove_more_link_scroll' );
