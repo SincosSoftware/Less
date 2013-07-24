@@ -80,7 +80,7 @@
 						</div><!--/post-meta -->
 
 						<div class="the-content">
-							<?php the_content( 'Continue...' ); ?>
+							<?php the_content( __('Continue', 'less') ); ?>
 
 							<?php wp_link_pages(); ?>
 						</div><!-- the-content -->
@@ -138,7 +138,7 @@
 						</div><!--/post-meta -->
 
 						<div class="the-content">
-							<?php the_content( 'Continue...' ); ?>
+							<?php the_content( __('Continue', 'less') ); ?>
 
 							<?php wp_link_pages(); ?>
 						</div><!-- the-content -->
