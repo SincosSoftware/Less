@@ -451,7 +451,7 @@ pre {
 }
 /* Links */
 a {
-  color: #007998;
+  color: #5ba72a;
   -webkit-transition: color 0.25s ease-in-out;
   -moz-transition: color 0.25s ease-in-out;
   -o-transition: color 0.25s ease-in-out;
@@ -462,7 +462,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: rgba(0, 121, 152, 0.5);
+  color: rgba(91, 167, 42, 0.5);
 }
 /* Alignment */
 .alignleft {
@@ -560,7 +560,7 @@ article .title a {
   color: #404040;
 }
 article .title a:hover {
-  color: #007998;
+  color: #5ba72a;
 }
 article .post-meta {
   margin-bottom: 40px;
