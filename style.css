@@ -577,7 +577,8 @@ article .the-content a {
   font-weight: 900;
   text-decoration: none;
 }
-article .the-content p {
+article .the-content p,
+article .the-content li {
   color: #787878;
 }
 article .the-content img {
