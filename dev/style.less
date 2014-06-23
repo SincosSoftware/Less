@@ -135,6 +135,7 @@ h1 {
 
 h2 {
 	.font-size(34);
+	margin-bottom: .5em;
 }
 
 h3 {
@@ -182,7 +183,16 @@ dfn, cite, em, i {
 	font-style: italic;
 }
 blockquote {
-	margin: 0 1.5em;
+	border-left: .5em solid #ccc;
+	font-style: italic;
+	margin-bottom: 1.5em;
+	color: #ccc;
+	font-family: Georgia, Times, serif;
+	background-color: #f6f6f6;
+	padding: 1em;
+}
+blockquote *:last-child {
+	margin-bottom: 0;
 }
 address {
 	margin: 0 0 1.5em;
