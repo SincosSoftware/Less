@@ -1,2 +1,3 @@
 deploy.sh
 codekit-config.json
+node_modules
